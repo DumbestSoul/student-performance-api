@@ -1,0 +1,11 @@
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\bin\Debug\net8.0\StudentPerformance.ViewModel.deps.json
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\bin\Debug\net8.0\StudentPerformance.ViewModel.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\bin\Debug\net8.0\StudentPerformance.ViewModel.pdb
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\StudentPerformance.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\StudentPerformance.ViewModel.AssemblyInfoInputs.cache
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\StudentPerformance.ViewModel.AssemblyInfo.cs
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\StudentPerformance.ViewModel.csproj.CoreCompileInputs.cache
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\StudentPerformance.ViewModel.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\refint\StudentPerformance.ViewModel.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\StudentPerformance.ViewModel.pdb
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\ref\StudentPerformance.ViewModel.dll

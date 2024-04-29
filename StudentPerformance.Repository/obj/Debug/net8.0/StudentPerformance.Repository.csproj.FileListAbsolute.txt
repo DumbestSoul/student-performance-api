@@ -1,0 +1,17 @@
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\bin\Debug\net8.0\StudentPerformance.Repository.deps.json
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\bin\Debug\net8.0\StudentPerformance.Repository.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\bin\Debug\net8.0\StudentPerformance.Repository.pdb
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\bin\Debug\net8.0\StudentPerformance.Entity.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\bin\Debug\net8.0\StudentPerformance.Entity.pdb
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\StudentPerformance.Repository.csproj.AssemblyReference.cache
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\StudentPerformance.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\StudentPerformance.Repository.AssemblyInfoInputs.cache
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\StudentPerformance.Repository.AssemblyInfo.cs
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\StudentPerformance.Repository.csproj.CoreCompileInputs.cache
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\StudentP.8D04B63C.Up2Date
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\StudentPerformance.Repository.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\refint\StudentPerformance.Repository.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\StudentPerformance.Repository.pdb
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\obj\Debug\net8.0\ref\StudentPerformance.Repository.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\bin\Debug\net8.0\StudentPerformance.ViewModel.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Repository\bin\Debug\net8.0\StudentPerformance.ViewModel.pdb
