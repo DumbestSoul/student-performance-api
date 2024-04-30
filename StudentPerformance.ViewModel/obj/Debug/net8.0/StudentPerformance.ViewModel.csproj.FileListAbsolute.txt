@@ -9,3 +9,4 @@ E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\refint\StudentPerformance.ViewModel.dll
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\StudentPerformance.ViewModel.pdb
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\ref\StudentPerformance.ViewModel.dll
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.ViewModel\obj\Debug\net8.0\StudentPerformance.ViewModel.sourcelink.json

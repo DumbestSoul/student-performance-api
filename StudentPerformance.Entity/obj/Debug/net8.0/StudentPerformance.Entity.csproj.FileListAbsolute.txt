@@ -12,3 +12,4 @@ E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Entity\obj\Debug\net8.0
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Entity\bin\Debug\net8.0\StudentPerformance.Entity.runtimeconfig.json
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Entity\obj\Debug\net8.0\StudentPerformance.Entity.csproj.AssemblyReference.cache
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Entity\obj\Debug\net8.0\StudentPerformance.Entity.genruntimeconfig.cache
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Entity\obj\Debug\net8.0\StudentPerformance.Entity.sourcelink.json

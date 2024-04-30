@@ -13,12 +13,15 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 
 //Dependency Injection
 builder.Services.AddScoped<DbContext, SchoolContext>();
 builder.Services.AddScoped<ISchoolRepository, SchoolRepository>();
 builder.Services.AddScoped<ISchoolBusiness, SchoolBusiness>();
+
+//Adding AutoMapper
 
 //DbContext
 builder.Services.AddDbContext<SchoolContext>(options => 

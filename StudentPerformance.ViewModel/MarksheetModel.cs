@@ -14,6 +14,6 @@ namespace StudentPerformance.ViewModel
 
 		public string Sub { get; set; } = null!;
 
-		public string? MarksObtained { get; set; }
+		public decimal? MarksObtained { get; set; }
 	}
 }

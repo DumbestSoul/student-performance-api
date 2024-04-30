@@ -999,6 +999,16 @@
         "runtime": {
           "bin/placeholder/StudentPerformance.Entity.dll": {}
         }
+      },
+      "StudentPerformance.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/StudentPerformance.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentPerformance.ViewModel.dll": {}
+        }
       }
     }
   },
@@ -2758,11 +2768,17 @@
       "type": "project",
       "path": "../StudentPerformance.Entity/StudentPerformance.Entity.csproj",
       "msbuildProject": "../StudentPerformance.Entity/StudentPerformance.Entity.csproj"
+    },
+    "StudentPerformance.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../StudentPerformance.ViewModel/StudentPerformance.ViewModel.csproj",
+      "msbuildProject": "../StudentPerformance.ViewModel/StudentPerformance.ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "StudentPerformance.Entity >= 1.0.0"
+      "StudentPerformance.Entity >= 1.0.0",
+      "StudentPerformance.ViewModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2794,6 +2810,9 @@
           "projectReferences": {
             "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.Entity\\StudentPerformance.Entity.csproj": {
               "projectPath": "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.Entity\\StudentPerformance.Entity.csproj"
+            },
+            "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.ViewModel\\StudentPerformance.ViewModel.csproj": {
+              "projectPath": "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.ViewModel\\StudentPerformance.ViewModel.csproj"
             }
           }
         }

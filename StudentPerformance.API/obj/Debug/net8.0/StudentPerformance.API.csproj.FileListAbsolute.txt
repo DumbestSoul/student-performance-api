@@ -143,3 +143,4 @@ E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.API\bin\Debug\net8.0\St
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.API\bin\Debug\net8.0\StudentPerformance.Repository.pdb
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.API\bin\Debug\net8.0\StudentPerformance.ViewModel.dll
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.API\bin\Debug\net8.0\StudentPerformance.ViewModel.pdb
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.API\obj\Debug\net8.0\StudentPerformance.API.sourcelink.json

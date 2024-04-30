@@ -17,3 +17,4 @@ E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Business\obj\Debug\net8
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Business\obj\Debug\net8.0\ref\StudentPerformance.Business.dll
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Business\bin\Debug\net8.0\StudentPerformance.ViewModel.dll
 E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Business\bin\Debug\net8.0\StudentPerformance.ViewModel.pdb
+E:\C#\C#_REPOS\StudentPerformance.API\StudentPerformance.Business\obj\Debug\net8.0\StudentPerformance.Business.sourcelink.json

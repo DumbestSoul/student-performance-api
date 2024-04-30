@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore.Metadata;
 using StudentPerformance.Business.Common;
 using StudentPerformance.Business.Contract;
 using StudentPerformance.Entity.Models;
@@ -10,9 +11,11 @@ namespace StudentPerformance.Business.Business
 	public class SchoolBusiness : ISchoolBusiness
 	{
 		private readonly ISchoolRepository _schoolRepository;
-        public SchoolBusiness(ISchoolRepository schoolRepository)
+		private readonly IMapper _mapper;
+        public SchoolBusiness(ISchoolRepository schoolRepository, IMapper mapper)
         {
 			_schoolRepository = schoolRepository;
+			_mapper = mapper;
         }
 
 		public SubjectModel GetAllMarksById(Guid id)
@@ -20,7 +23,7 @@ namespace StudentPerformance.Business.Business
 			var res = _schoolRepository.GetMarksheetById(id);
 
 			SubjectModel sbm = new();
-			sbm = Mapper.ToSubjectModel(res);
+			sbm = MyMapper.ToSubjectModel(res);
 			return sbm;
 		}
 
@@ -30,7 +33,7 @@ namespace StudentPerformance.Business.Business
 			List<MarksheetModel> marksheet = new();
 			foreach (Marksheet m in res)
 			{
-				marksheet.Add(Mapper.ToMarksheetModel(m));
+				marksheet.Add(_mapper.Map<MarksheetModel>(m));
 			}
 			return marksheet;
 		}
@@ -41,7 +44,7 @@ namespace StudentPerformance.Business.Business
 			List<MarksheetModel> marksheets = new();
 			foreach(Marksheet m in tempRes)
 			{
-				marksheets.Add(Mapper.ToMarksheetModel(m));
+				marksheets.Add(_mapper.Map<MarksheetModel>(m));
 			}
 			return marksheets;
 		}
@@ -52,12 +55,7 @@ namespace StudentPerformance.Business.Business
 			List<StudentModel> students = new();
 			foreach(StudentMaster student in tempRes)
 			{
-				students.Add(new StudentModel
-				{
-					StudentId = student.StudentId,
-					StudentName = student.StudentName,
-					Class = student.Class
-				});
+				students.Add(_mapper.Map<StudentModel>(student));
 			}
 			return students;
 		}
@@ -92,7 +90,7 @@ namespace StudentPerformance.Business.Business
 
 		public void Add(StudentSubjectModel ssm)
 		{
-			List<Marksheet> marksheets = Mapper.FromSSMToMarksheet(ssm);
+			List<Marksheet> marksheets = MyMapper.FromSSMToMarksheet(ssm);
 			_schoolRepository.Add(marksheets);
 		}
 

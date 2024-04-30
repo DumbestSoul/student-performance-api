@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -1004,7 +1020,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "StudentPerformance.Entity": "1.0.0"
+          "StudentPerformance.Entity": "1.0.0",
+          "StudentPerformance.ViewModel": "1.0.0"
         },
         "compile": {
           "bin/placeholder/StudentPerformance.Repository.dll": {}
@@ -1012,10 +1029,35 @@
         "runtime": {
           "bin/placeholder/StudentPerformance.Repository.dll": {}
         }
+      },
+      "StudentPerformance.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/StudentPerformance.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentPerformance.ViewModel.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "Azure.Core/1.35.0": {
       "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
       "type": "package",
@@ -2776,12 +2818,19 @@
       "type": "project",
       "path": "../StudentPerformance.Repository/StudentPerformance.Repository.csproj",
       "msbuildProject": "../StudentPerformance.Repository/StudentPerformance.Repository.csproj"
+    },
+    "StudentPerformance.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../StudentPerformance.ViewModel/StudentPerformance.ViewModel.csproj",
+      "msbuildProject": "../StudentPerformance.ViewModel/StudentPerformance.ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoMapper >= 13.0.1",
       "StudentPerformance.Entity >= 1.0.0",
-      "StudentPerformance.Repository >= 1.0.0"
+      "StudentPerformance.Repository >= 1.0.0",
+      "StudentPerformance.ViewModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2816,6 +2865,9 @@
             },
             "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.Repository\\StudentPerformance.Repository.csproj": {
               "projectPath": "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.Repository\\StudentPerformance.Repository.csproj"
+            },
+            "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.ViewModel\\StudentPerformance.ViewModel.csproj": {
+              "projectPath": "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.ViewModel\\StudentPerformance.ViewModel.csproj"
             }
           }
         }
@@ -2834,6 +2886,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

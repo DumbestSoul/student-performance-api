@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wHdQJYjyDAZmJSgfv7sbAddd0X9uZrRfJyYnBHze0DTNJTMNXzqQq8qdCxTbf0VpiaP627VQFqtlIiv6YdFqSg==",
+  "dgSpecHash": "R7EI/EndKdYDgORgFwmsZqGis+mW1D1TfY6GpPT4i8MMPuE2zsFiA5EModY6/Ec1+Ewn5kpLZtjef+QKdsbRww==",
   "success": true,
   "projectFilePath": "E:\\C#\\C#_REPOS\\StudentPerformance.API\\StudentPerformance.Business\\StudentPerformance.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rajat\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\rajat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rajat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\rajat\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

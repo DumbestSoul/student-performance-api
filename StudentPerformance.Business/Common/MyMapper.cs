@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace StudentPerformance.Business.Common
 {
-	public static class Mapper
+	public static class MyMapper
 	{
 		public static SubjectModel ToSubjectModel(List<Marksheet> m)
 		{
@@ -18,18 +18,6 @@ namespace StudentPerformance.Business.Common
 			sbm.Maths = m[2].MarksObtained;
 			sbm.Science = m[3].MarksObtained;
 			return sbm;
-		}
-
-		public static MarksheetModel ToMarksheetModel(Marksheet m)
-		{
-			MarksheetModel res = new();
-
-			res.MarksheetId = m.MarksheetId;
-			res.StudentId = m.StudentId;
-			res.Sub = m.Sub;
-			res.MarksObtained = $"{m.MarksObtained}/{m.TotalMark}";
-
-			return res;
 		}
 
 		public static List<Marksheet> FromSSMToMarksheet(StudentSubjectModel ssm)

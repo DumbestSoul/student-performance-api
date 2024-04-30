@@ -9,7 +9,7 @@
       "StudentPerformance.Repository/1.0.0": {
         "dependencies": {
           "StudentPerformance.Entity": "1.0.0",
-          "StudentPerformance.ViewModel": "1.0.0.0"
+          "StudentPerformance.ViewModel": "1.0.0"
         },
         "runtime": {
           "StudentPerformance.Repository.dll": {}
@@ -568,12 +568,9 @@
           "StudentPerformance.Entity.dll": {}
         }
       },
-      "StudentPerformance.ViewModel/1.0.0.0": {
+      "StudentPerformance.ViewModel/1.0.0": {
         "runtime": {
-          "StudentPerformance.ViewModel.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "StudentPerformance.ViewModel.dll": {}
         }
       }
     }
@@ -974,8 +971,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "StudentPerformance.ViewModel/1.0.0.0": {
-      "type": "reference",
+    "StudentPerformance.ViewModel/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }
