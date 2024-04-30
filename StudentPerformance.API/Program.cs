@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using StudentPerformance.Business.Business;
+using StudentPerformance.Business.Common;
 using StudentPerformance.Business.Contract;
 using StudentPerformance.Entity.Models;
 using StudentPerformance.Repository.Contract;
@@ -13,7 +14,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddAutoMapper(typeof(Program).Assembly);
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
 
 
 //Dependency Injection
